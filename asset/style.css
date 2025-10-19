@@ -4,6 +4,8 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
 }
 .container {
   width: 1200px;
@@ -28,15 +30,14 @@ body {
   font-size: 40px;
   font-weight: bold;
   margin: 0;
-  margin-left: -15px;
 }
 
 .nav-item {
   padding: 0 20px;
 
-  text-decoration: none;
-  list-style: none;
   position: relative;
+  transition: transform 0.5s ease;
+  cursor: pointer;
 }
 .navbar-nav {
   font-size: 20px;
@@ -44,9 +45,15 @@ body {
   list-style: none;
   position: relative;
 }
-
+.nav-item:hover {
+  text-decoration: underline;
+}
+.nav-item a.active {
+  color: #393E46;
+  text-decoration: underline;
+}
 .text {
-  margin-top: 300px;
+  margin-top: 320px;
   font-size: 40px;
   letter-spacing: 1px;
   font-family: monospace;
@@ -78,11 +85,11 @@ body {
 }
 img {
   margin-top: 270px;
-  margin-left: 350px;
+  margin-left: 300px;
   border: 1px solid;
 
   cursor: pointer;
-  width: 250px;
+  width: 300px;
   height: 250px;
   transition: transform 0.4s ease;
 }
@@ -101,8 +108,7 @@ img:hover {
     margin-top: 50px;
     text-align: center;
   }
-  img{
-    
+  img {
     margin-top: 40px;
   }
 }
