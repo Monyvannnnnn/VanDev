@@ -51,7 +51,7 @@ body {
   letter-spacing: 1px;
   font-family: monospace;
   border-right: 5px solid;
-  width: 75%;
+  width: 76%;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 3s, cursor 0.4s step-end infinite alternate;
@@ -100,5 +100,9 @@ img:hover {
   p {
     margin-top: 50px;
     text-align: center;
+  }
+  img{
+    
+    margin-top: 40px;
   }
 }
