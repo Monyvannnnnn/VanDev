@@ -1,0 +1,104 @@
+@import url("https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Share+Tech+Mono&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 1200px;
+  margin: auto;
+}
+body {
+  background-color: #b1b2b3;
+  font-family: "Share Tech Mono", monospace;
+}
+.navbar .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar {
+  overflow: visible;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navbar-brand {
+  font-size: 40px;
+  font-weight: bold;
+  margin: 0;
+  margin-left: -15px;
+}
+
+.nav-item {
+  padding: 0 20px;
+
+  text-decoration: none;
+  list-style: none;
+  position: relative;
+}
+.navbar-nav {
+  font-size: 20px;
+  display: flex;
+  list-style: none;
+  position: relative;
+}
+
+.text {
+  margin-top: 300px;
+  font-size: 40px;
+  letter-spacing: 1px;
+  font-family: monospace;
+  border-right: 5px solid;
+  width: 75%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: typing 3s, cursor 0.4s step-end infinite alternate;
+}
+
+/* cursor blinking */
+@keyframes cursor {
+  50% {
+    border-color: transparent;
+  }
+}
+
+/* typing effect */
+@keyframes typing {
+  from {
+    width: 0;
+  }
+}
+.row {
+  display: flex;
+}
+.col-6 {
+  width: 50%;
+}
+img {
+  margin-top: 270px;
+  margin-left: 350px;
+  border: 1px solid;
+
+  cursor: pointer;
+  width: 250px;
+  height: 250px;
+  transition: transform 0.4s ease;
+}
+img:hover {
+  transform: scale(1.1);
+}
+@media (max-width: 600px) {
+  .container {
+    flex-direction: column;
+  }
+  .text {
+    margin: auto;
+    margin-top: 50px;
+  }
+  p {
+    margin-top: 50px;
+    text-align: center;
+  }
+}
