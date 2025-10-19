@@ -51,7 +51,7 @@ body {
   letter-spacing: 1px;
   font-family: monospace;
   border-right: 5px solid;
-  width: 76%;
+  width: 75%;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 3s, cursor 0.4s step-end infinite alternate;
