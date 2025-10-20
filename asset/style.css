@@ -53,12 +53,12 @@ body {
   text-decoration: underline;
 }
 .text {
-  margin-top: 320px;
+  margin-top: 450px;
   font-size: 40px;
   letter-spacing: 1px;
   font-family: monospace;
   border-right: 5px solid;
-  width: 75%;
+  width: 79%;
   white-space: nowrap;
   overflow: hidden;
   animation: typing 3s, cursor 0.4s step-end infinite alternate;
@@ -79,15 +79,16 @@ body {
 }
 .row {
   display: flex;
+  
 }
 .col-6 {
   width: 50%;
 }
 img {
-  margin-top: 270px;
+  
   margin-left: 300px;
   border: 1px solid;
-
+margin-top: 400px;
   cursor: pointer;
   width: 300px;
   height: 250px;
