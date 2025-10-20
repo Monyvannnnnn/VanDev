@@ -49,11 +49,11 @@ body {
   text-decoration: underline;
 }
 .nav-item a.active {
-  color: #393E46;
+  color: #393e46;
   text-decoration: underline;
 }
 .text {
-  margin-top: 450px;
+  margin-top: 320px;
   font-size: 40px;
   letter-spacing: 1px;
   font-family: monospace;
@@ -79,16 +79,15 @@ body {
 }
 .row {
   display: flex;
-  
 }
 .col-6 {
   width: 50%;
 }
 img {
-  
+  margin-top: 270px;
   margin-left: 300px;
   border: 1px solid;
-margin-top: 400px;
+
   cursor: pointer;
   width: 300px;
   height: 250px;
@@ -97,19 +96,29 @@ margin-top: 400px;
 img:hover {
   transform: scale(1.1);
 }
-@media (max-width: 600px) {
-  .container {
-    flex-direction: column;
-  }
+@media (max-width: 2560px) {
   .text {
-    margin: auto;
-    margin-top: 50px;
+    margin-top: 380px;
+    font-size: 45px;
+    letter-spacing: 1px;
+    font-family: monospace;
+    border-right: 5px solid;
+    width: 89%;
+    white-space: nowrap;
+    overflow: hidden;
+    animation: typing 3s, cursor 0.4s step-end infinite alternate;
   }
-  p {
-    margin-top: 50px;
-    text-align: center;
+  .col-6 p{
+    font-size: 25px;
   }
+
   img {
-    margin-top: 40px;
+    margin-top: 390px;
+    margin-left: 230px;
+    border: 1px solid;
+    cursor: pointer;
+    width: 370px;
+    height: 320px;
+    transition: transform 0.4s ease;
   }
 }
